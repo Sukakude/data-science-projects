@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # API KEY
-API_KEY = "3fa0ee1a002d3e413e0d6c515ca63977" # REPLACE WITH YOUR OWN API KEY 
+API_KEY = "<YOUR_API_KEY>" # REPLACE WITH YOUR OWN API KEY 
 
 # BASE_URL
 BASE_URL = "https://api.openweathermap.org/data/2.5/"
@@ -298,4 +298,5 @@ if __name__ == "__main__":
     
     
     
+
     
