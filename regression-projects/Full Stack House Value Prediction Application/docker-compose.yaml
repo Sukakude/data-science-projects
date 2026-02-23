@@ -1,0 +1,19 @@
+services:
+
+  backend:
+    build: ./backend
+    container_name: ml-backend
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    container_name: ml-frontend
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    depends_on:
+      - backend
